@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Index */
+.container {
+  width: 100%;
+  height: 688px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Fondo2-index.jpg);
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: 0.4s all ease-in-out;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1rem;
+}
+
+.logo {
+  width: 70px;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.menu-desktop {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-menu {
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 1rem;
+  line-height: 70px;
+  display: block;
+  height: 70px;
+  color: white;
+  transition: 0.4s all ease-in-out;
+}
+
+.link-menu:hover {
+  box-shadow: 0 -5px 0 0 white inset;
+  transform: scale(0.95);
+}
+
+.text-portada {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.text-portada > h1 {
+  font-family: "Oleo Script Swash Caps";
+  font-size: 96px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.text-portada > p {
+  font-family: "Poppins";
+  width: 45%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: white;
+}
+
+.text-portada > small {
+  font-family: "Poppins";
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+}
+
+.seccion-fotos {
+  width: 78%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foto1 {
+  width: 50%;
+  padding: 1rem;
+}
+
+.foto1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.foto2 {
+  padding: 1rem;
+  width: 50%;
+}
+
+.foto2 > img {
+  width: 100%;
+  height: 49.5%;
+  border-radius: 50px;
+}
+
+.seccion-info {
+  width: 50%;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1px;
+}
+
+.seccion-info > h1 {
+  font-family: "Oleo Script Swash Caps";
+  font-size: 48px;
+  width: 50%;
+  border-bottom: 3px solid orange;
+  padding: 22px 0px;
+  text-align: left;
+}
+
+.seccion-info > p {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 160%;
+  text-align: left;
+}
+
+.seccion-info > small {
+  font-family: "Poppins";
+  border: 1px solid orange;
+  border-radius: 40px;
+  width: 40%;
+  font-size: 17px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Menu */
+
+.titles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.titles > h1 {
+  font-family: "Oleo Script Swash Caps";
+  font-size: 48px;
+}
+
+.titles > small {
+  font-family: "Poppins";
+  padding: 0.5rem;
+  width: 40%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  border-bottom: 3px solid orange;
+}
+
+.seccion-platos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-content {
+  padding: 1rem;
+  width: 25%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.foto-plato {
+  width: 100%;
+}
+
+.foto-plato > img {
+  width: 100%;
+}
+
+.menu-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-name > h1 {
+  font-size: 24px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.menu-name > p {
+  padding: 6px;
+  border: 1px solid orangered;
+  background-color: orangered;
+  color: white;
+  font-family: "Poppins";
+}
+
+.menu-description {
+  font-family: "Poppins";
+  line-height: 20px;
+  color: #6a6a6a;
+  letter-spacing: 1px;
+}
+
+.menu-btn {
+  font-family: "Poppins";
+  background-color: rgb(238, 220, 220);
+  color: orange;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.our-menu {
+  padding: 2rem;
+}
+
+.our-menu > button {
+  display: block;
+  margin: auto;
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 15px;
+  padding: 0.5rem;
+  font-family: "Poppins";
+  color: white;
+  height: 40px;
+  width: 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Services */
+
+.services {
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.titles-services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.seccion-services {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.services-content {
+  padding: 2rem;
+  width: 30%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.foto-services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-services > img {
+  width: 20%;
+}
+
+.services-content > h2 {
+  font-size: 30px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.services-content > p {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+/* Comments */
+.comments {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Fondo1-Comments.jpg);
+  background-color: rgba(0, 0, 0, 0.46);
+  backdrop-filter: blur(4px);
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+}
+
+.titles-comments {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+}
+
+.titles-comments > h1 {
+  font-size: 72px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.titles-comments > small {
+  font-size: 17px;
+  font-family: "Poppins";
+  width: 42%;
+  text-align: center;
+  border-bottom: 3px solid orange;
+}
+
+.seccion-comments {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.comments-content {
+  padding: 2rem;
+  width: 25%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.foto-comments {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-comments > img {
+  width: 50%;
+  border-radius: 50px;
+}
+
+.comments-content > p {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.comments-content > h2 {
+  font-size: 24px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+/* Formulario */
+.formulario {
+  width: 100%;
+  height: 100%;
+}
+
+.titles-formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.titles-formulario > h1 {
+  font-size: 72px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.titles-formulario > small {
+  font-size: 17px;
+  font-family: "Poppins";
+  width: 42%;
+  text-align: center;
+  border-bottom: 3px solid orange;
+  padding: 1rem;
+}
+
+.seccion-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.seccion-formulario > form {
+  width: 50%;
+  padding: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline;
+  border: 1px solid orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.seccion-formulario > form > label {
+  font-family: "Poppins";
+}
+
+.btn-form {
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  border: 3px solid orange;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+/* Usuarios */
+.usuarios {
+  width: 100%;
+  height: 390px;
+  background-image: url(../img/Imagen1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seccion-usuarios {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.titles-usuarios {
+  text-align: center;
+  border-bottom: 3px solid orangered;
+  padding: 2rem;
+}
+
+.titles-usuarios > h1 {
+  font-size: 50px;
+  font-family: "Oleo Script Swash Caps";
+  color: white;
+}
+
+.titles-usuarios > small {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.info {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.titles-info {
+  color: white;
+  width: 30%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foto-info {
+  width: 20%;
+}
+
+.foto-info > img {
+  width: 100%;
+}
+
+.titles-info > h3 {
+  font-size: 32px;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.titles-info > p {
+  font-size: 14px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.titles-info > input {
+  background-color: #ccc;
+  border: 3px solid orange;
+}
+
+.btn-info {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.pie-Pagina{
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+}
+
+.pie-Pagina > p{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Poppins';
+}
